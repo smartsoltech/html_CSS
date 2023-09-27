@@ -6,6 +6,18 @@
     <title>Каталог</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product {
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            height: 800px; 
+            overflow: hidden;
+        }
+    
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,20 +40,20 @@
         <h1>Каталог</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nulla velit, nec aliquet dolor fermentum sed... <!-- И так далее для 150 слов --></p>
         <div class="row">
-            <div class="col-md-4">
+            <div class="product col-md-4">
                 <img src="../img/1.jpg" alt="Товар 1" class="img-fluid">
-                <h3>Название товара 1</h3>
-                <p>Описание товара 1...</p>
+                <h3>Баночка зеленого цвета с пипеткой</h3>
+                <p>Элегантная баночка насыщенного зеленого цвета в стеклянном корпусе. Идеально подходит для хранения масел, сывороток и других жидких косметических продуктов. В комплекте идет удобная пипетка, позволяющая аккуратно набрать необходимое количество средства. Содержимое: органическое масло жожоба, известное своими увлажняющими свойствами.</p>
             </div>
-            <div class="col-md-4">
+            <div class="product col-md-4">
                 <img src="../img/2.jpg" alt="Товар 2" class="img-fluid">
-                <h3>Название товара 2</h3>
-                <p>Описание товара 2...</p>
+                <h3>Баночка коричневого цвета со стеклянной пипеткой</h3>
+                <p>Стильная темно-коричневая баночка из толстого стекла. Защищает содержимое от воздействия света, что обеспечивает длительное сохранение полезных свойств косметических продуктов. Прилагаемая стеклянная пипетка гарантирует легкость и комфорт при использовании. Содержимое: натуральное розовое масло, идеально для ухода за чувствительной кожей.</p>
             </div>
-            <div class="col-md-4">
+            <div class="product col-md-4">
                 <img src="../img/3.jpg" alt="Товар 3" class="img-fluid">
-                <h3>Название товара 3</h3>
-                <p>Описание товара 3...</p>
+                <h3>Сет косметики: помазок для бритья, бритва, коричневый бутылек с пипеткой, без пипетки и белый крем</h3>
+                <p>Полный набор для вашего ухода! Включает в себя качественный помазок для бритья с натуральным ворсом, острое лезвие бритвы для гладкого и чистого бритья, а также два коричневых бутылек: один с пипеткой для масел или сывороток и другой для лосьонов или тоников. В комплект также входит увлажняющий крем белого цвета с добавлением экстракта алоэ вера для после бритья. Все, что нужно для идеального ухода за кожей лица!</p>
             </div>
         </div>
     </div>
@@ -49,5 +61,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2023 Мой сайт. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
 </html>
