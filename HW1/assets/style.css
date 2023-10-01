@@ -1,0 +1,59 @@
+/* Стили для всех ссылок */
+a {
+    text-decoration: none;
+}
+
+/* Стили для карточек товара */
+.product {
+    transition: all 0.3s ease;
+    height: 700px;
+    overflow: hidden;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для футера */
+footer.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Стили для ссылок меню */
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Стили для заголовков h1 */
+.main-title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* Стили для параграфов */
+.custom-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* Стили для заголовков h2 */
+.sub-title {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}

@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .product {
-            transition: transform 0.5s ease, box-shadow 0.5s ease;
-            height: 800px; 
-            overflow: hidden;
-        }
-    
-        .product:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Мой сайт</a>
@@ -38,23 +29,42 @@
     </nav>
     <div class="container mt-5">
         <h1>Каталог</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nulla velit, nec aliquet dolor fermentum sed... <!-- И так далее для 150 слов --></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nulla velit, nec aliquet dolor fermentum sed...</p>
         <div class="row">
             <div class="product col-md-4">
                 <img src="../img/1.jpg" alt="Товар 1" class="img-fluid">
                 <h3>Баночка зеленого цвета с пипеткой</h3>
-                <p>Элегантная баночка насыщенного зеленого цвета в стеклянном корпусе. Идеально подходит для хранения масел, сывороток и других жидких косметических продуктов. В комплекте идет удобная пипетка, позволяющая аккуратно набрать необходимое количество средства. Содержимое: органическое масло жожоба, известное своими увлажняющими свойствами.</p>
+                <p>Элегантная баночка насыщенного зеленого цвета в стеклянном корпусе...</p>
             </div>
             <div class="product col-md-4">
                 <img src="../img/2.jpg" alt="Товар 2" class="img-fluid">
                 <h3>Баночка коричневого цвета со стеклянной пипеткой</h3>
-                <p>Стильная темно-коричневая баночка из толстого стекла. Защищает содержимое от воздействия света, что обеспечивает длительное сохранение полезных свойств косметических продуктов. Прилагаемая стеклянная пипетка гарантирует легкость и комфорт при использовании. Содержимое: натуральное розовое масло, идеально для ухода за чувствительной кожей.</p>
+                <p>Стильная темно-коричневая баночка из толстого стекла...</p>
             </div>
             <div class="product col-md-4">
                 <img src="../img/3.jpg" alt="Товар 3" class="img-fluid">
-                <h3>Сет косметики: помазок для бритья, бритва, коричневый бутылек с пипеткой, без пипетки и белый крем</h3>
-                <p>Полный набор для вашего ухода! Включает в себя качественный помазок для бритья с натуральным ворсом, острое лезвие бритвы для гладкого и чистого бритья, а также два коричневых бутылек: один с пипеткой для масел или сывороток и другой для лосьонов или тоников. В комплект также входит увлажняющий крем белого цвета с добавлением экстракта алоэ вера для после бритья. Все, что нужно для идеального ухода за кожей лица!</p>
+                <h3>Сет косметики: помазок для бритья, бритва, коричневый бутылек...</h3>
+                <p>Полный набор для вашего ухода! Включает в себя качественный помазок...</p>
             </div>
+        </div>
+        <!-- Секция "О нас" -->
+        <div class="container mt-5">
+            <h2 class="sub-title">О нас</h2>
+            <p class="custom-paragraph">Мы – команда профессионалов, занимающаяся продажей качественной косметики...</p>
+        </div>
+        <!-- Секция "Отзывы клиентов" -->
+        <div class="container mt-5">
+            <h2 class="sub-title">Отзывы клиентов</h2>
+            <p class="custom-paragraph">"Очень довольна покупкой! Косметика высшего качества!" - Анна С.</p>
+            <p class="custom-paragraph">"Спасибо за быструю доставку. Буду заказывать еще!" - Михаил Д.</p>
+            <p class="custom-paragraph">"Лучший интернет-магазин косметики. Рекомендую всем друзьям!" - Ольга В.</p>
+        </div>
+        <!-- Секция "Контакты" -->
+        <div class="container mt-5">
+            <h2 class="sub-title">Контакты</h2>
+            <p class="custom-paragraph">Адрес: г. Москва, ул. Ленина, д. 5</p>
+            <p class="custom-paragraph">Телефон: +7 (900) 123-45-67</p>
+            <p class="custom-paragraph">E-mail: info@mysite.ru</p>
         </div>
     </div>
     <!-- Bootstrap JS, Popper.js, and jQuery -->
@@ -68,4 +78,5 @@
         </div>
     </footer>
 </body>
+
 </html>
